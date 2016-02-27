@@ -37,3 +37,6 @@ brew install maven
 
 # ansible
 brew install ansible
+
+# gpg
+brew install gpg
