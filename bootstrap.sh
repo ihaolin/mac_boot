@@ -10,7 +10,7 @@ xcode-select --install
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 #echo "Install Powerline"
-git clone git@github.com:powerline/fonts.git && ./install.sh
+git clone git@github.com:powerline/fonts.git && cd fonts && ./install.sh && cd ..
 
 echo "Install Some Basic Dev Softs"
 
