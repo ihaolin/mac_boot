@@ -29,6 +29,11 @@ brew install redis
 ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
 launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
 
+# zookeeper
+brew install zookeeper
+ln -sfv /usr/local/opt/zookeeper/*.plist ~/Library/LaunchAgents
+launchctl load ~/Library/LaunchAgents/homebrew.mxcl.zookeeper.plist
+
 # jdk7
 brew install Caskroom/versions/java7
 
