@@ -45,3 +45,6 @@ brew install ansible
 
 # gpg
 brew install gpg
+
+# graphviz
+brew install graphviz
