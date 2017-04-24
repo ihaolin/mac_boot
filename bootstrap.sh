@@ -38,16 +38,26 @@ ln -sfv /usr/local/opt/zookeeper/*.plist ~/Library/LaunchAgents
 launchctl load ~/Library/LaunchAgents/homebrew.mxcl.zookeeper.plist
 
 # jdk7
-brew install Caskroom/versions/java7
+# brew install Caskroom/versions/java7
 
 # maven
 brew install maven
 
 # ansible
-brew install ansible
+# brew install ansible
 
 # gpg
 brew install gpg
+##
+## gpg env
+## GPG_TTY=$(tty)
+## export GPG_TTY
+##
 
 # graphviz
 brew install graphviz
+
+# imgcat
+brew tap eddieantonio/eddieantonio
+brew install imgcat
+
